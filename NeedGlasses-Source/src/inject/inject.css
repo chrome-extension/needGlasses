@@ -2,7 +2,7 @@
   Edit this as you want. 
   Beware of the universal selector *{}; as this will f shit up. Seriously. Just don't do it. Your browser will more than likely slow down and become unusable.
 */
-span, p, h1, h2, h3, h4, h5, h6, img, a, input, button, textarea, select, cite, iframe, object, abbr, strong, em, small, address, blockquote, ul, li, dl, dt, dd, code {
+span, p, h1, h2, h3, h4, h5, h6, img, a, input, button, textarea, select, cite, iframe, object, abbr, strong, em, small, address, blockquote, ul, li, dl, dt, dd, code, table, table * {
   filter: blur(1px) !important;
   -webkit-filter: blur(1px) !important;
 }
